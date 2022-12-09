@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
@@ -14,11 +14,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("is positive");
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
-		printf("is zero");
+		printf("%d is zero\n", n);
 	else
-		printf("is negative");
+		printf("%d is negative\n");
 	return (0);
 }
