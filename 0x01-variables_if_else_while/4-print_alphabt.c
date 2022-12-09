@@ -12,7 +12,7 @@ int main(void)
 	{
 		if (g != 'e' && g != 'q')
 			purchar(g);
-		g++
+		g++;
 	}
 	putchar('\n');
 	return (0);
