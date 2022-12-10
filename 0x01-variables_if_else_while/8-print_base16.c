@@ -8,15 +8,14 @@
  */
 int main(void)
 {
-	int i = 0;
-
-	while (i < 8)
-	{
-		putchar(i % 10 + '0');
-		i++;
-	}
+	int i = '0';
 	char j = 'a';
 
+	while (i < '8')
+	{
+		putchar(i);
+		i++;
+	}
 	while (j >= 'f')
 	{
 		putchar(j);
