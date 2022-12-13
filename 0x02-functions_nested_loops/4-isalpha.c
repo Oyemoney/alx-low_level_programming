@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - A function that prints alphabets
- * @c - character to test
+ * @c: character to test
  * Return: returns an integer
  */
 int _isalpha(int c)
