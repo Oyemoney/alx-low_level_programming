@@ -13,7 +13,7 @@ int _putchar(char c)
 }
 
 /**
- * 1-alphabet.c - A function that prints lower case alphabets
+ * A function that prints lower case alphabets
  *
  * Return: returns void
  */
