@@ -2,7 +2,7 @@
 
 /**
  * _islower - A function that prints lowercase ccharactesr
- *
+ * c - function parameter
  * Return: returns an integer
  */
 int _islower(int c)

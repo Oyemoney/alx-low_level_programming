@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - A function that prints alphabets
- *
+ *c - function parameter
  * Return: returns an integer
  */
 int _isalpha(int c)
@@ -11,7 +11,7 @@ int _isalpha(int c)
 		return (1);
 	else if (c >= 'A' && c <= 'Z')
 		return (1);
-	else 
+	else
 		return (0);
 }
 
