@@ -2,12 +2,12 @@
 
 /**
  * _abs - A function that print the absolute value of an integer
- * @n: integer to be tested 
+ * @c: integer to be tested
  * Return: returns an integer
  */
 int _abs(int c)
 {
-	if(c < 0)
+	if (c < 0)
 	{
 		c = c * (-1);
 		return (c);
