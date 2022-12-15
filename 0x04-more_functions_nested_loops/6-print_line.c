@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_lines - A function that checks uppercase characters
+ * print_line - A function that checks uppercase characters
  * @n: input number of times to print '_'
  * Return: returns a straight line
  */
