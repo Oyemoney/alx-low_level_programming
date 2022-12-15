@@ -2,7 +2,7 @@
 
 /**
  * print_lines - A function that checks uppercase characters
- * @n: input number
+ * @n: input number of times to print '_'
  * Return: returns void
  */
 void print_line(int n)
