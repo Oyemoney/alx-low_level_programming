@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isupper - A function that checks uppercase characters
+ * print_numbers - A function that checks uppercase characters
  *
- * Return: returns an integer
+ * Return: returns void
  */
 int print_numbers(void)
 {
