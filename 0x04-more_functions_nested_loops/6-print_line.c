@@ -5,7 +5,7 @@
  *
  * Return: returns void
  */
-void print_lines(int n)
+void print_line(int n)
 {
 	if (n > 0)
 	{
