@@ -31,7 +31,7 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 				if ((j == 2 && k == 8) || (j == 3 && k == 9) || (j == 4 && k == 8) || (j == 5 && k == 5) || (j == 6 && k == 6) || (j == 7 && k == 7) || (j == 8 && k == 8) || (j == 9 && k == 9))
-					continue
+					continue;
 				_putchar(' ');
 			}
 		}
