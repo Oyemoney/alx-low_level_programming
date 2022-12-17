@@ -7,7 +7,7 @@
  */
 void print_diagonal(int n)
 {
-	int co;
+	int co, i;
 
 	if (n <= 0)
 	{
@@ -15,13 +15,11 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		int i;
-
 		for (co = 1; co <= n; co++)
 		{
 			for (i = 1; i <= co; i++)
 			{
-				putchar('-');
+				putchar(' ');
 			}
 		}
 		_putchar('\\');
