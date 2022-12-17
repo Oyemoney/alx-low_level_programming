@@ -19,8 +19,6 @@ void print_diagonal(int n)
 		{
 			for (i = 1; i < co; i++)
 			{
-				if (i == 1)
-					continue;
 				_putchar(' ');
 			}
 		}
