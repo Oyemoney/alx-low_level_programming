@@ -13,23 +13,23 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i % 15)
+		if (i % 15 == 0)
 		{
 			printf("FizzBuzz ");
 		}
-		else if (i % 3)
+		else if (i % 3 == 0)
 		{
 			printf("Fizz ");
 		}
-		else if (i % 5)
+		else if (i % 5 == 0)
 		{
 			printf("Buzz ");
 		}
 		else
 		{
-			printf("%d ", n);
+			printfi("%d ", i);
 		}
 	}
 	printf("\n");
-	retuen (0);
+	return (0);
 }
