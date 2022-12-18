@@ -17,7 +17,7 @@ void print_square(int n)
 	{
 		for (co = 1; co <= n; co++)
 		{
-			for (i = 1; i < n; i++)
+			for (i = 1; i <= n; i++)
 			{
 				_putchar('#');
 			}
