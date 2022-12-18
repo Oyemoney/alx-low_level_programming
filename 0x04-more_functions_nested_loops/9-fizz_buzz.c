@@ -27,9 +27,8 @@ int main(void)
 		}
 		else
 		{
-			printfi("%d ", i);
+			printf("%d ", i);
 		}
-	}
 	printf("\n");
 	return (0);
 }
