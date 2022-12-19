@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - A function that changes the value of a variable
- * @*n: pointer to be replaced
+ * @n: pointer to be replaced
  * Return: returns void
  */
 
