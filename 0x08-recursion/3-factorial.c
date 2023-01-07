@@ -6,7 +6,7 @@
  * Return: returns solution to the factorial
  */
 
-int factorial(char *s)
+int factorial(int n)
 {
 	if (n < 0)
 	{
