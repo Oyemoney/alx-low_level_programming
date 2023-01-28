@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * int *_strcmp - a function that compares strings
+ * int _strcmp - a function that compares strings
  * @s1: copy to
  * @s2: copy from
  * Return: an integer
  */
-int *_strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int i = 0;
 	int m;
